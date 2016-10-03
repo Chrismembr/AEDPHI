@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_hometeacher"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="aedphisolucioneseducativas.aedphi.hometeacher">
+    <android.support.v7.widget.Toolbar
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/primary"
+        android:elevation="10sp"
+        android:theme="@android:style/Theme.Translucent.NoTitleBar"
+        tools:ignore="UnusedAttribute"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:id="@+id/recyclerstd"
+        android:scrollIndicators="right" />
+
+</RelativeLayout>

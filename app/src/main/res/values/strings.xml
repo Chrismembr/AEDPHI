@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AEDPHI</string>
+    <string name="Usuario">Usuario</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="Bienvenido">Bienvenido</string>
+    <string name="funcion">Funcion</string>
+    <string name="Acercade">Acerca de</string>
+</resources>
